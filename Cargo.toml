@@ -3,5 +3,7 @@ name = "hdf5-sys"
 version = "0.1.0"
 authors = ["bomber8013 <bomber8013@gmail.com>"]
 edition = "2018"
+links = "hdf5"
+build = "build.rs"
 
 [dependencies]
