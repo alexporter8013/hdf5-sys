@@ -9,4 +9,5 @@ fn main() {
 	let inc_path = Path::new(&inc_var);
 	println!("cargo:include={:?}", inc_path);
 	println!("cargo:rustc-link-search=native={:?}", lib_path);
+	println!("cargo:rustc-link-search=native={:?}", inc_path);
 }
